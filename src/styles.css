@@ -1,0 +1,89 @@
+body {
+  background: rgb(96, 97, 92);
+  color: #232323;
+  line-height: 30px;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 25px 50px;
+}
+
+code {
+  color: #09507c;
+  background: #deedf2;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+button {
+  font-size: 20px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  border-color: #09507c;
+  background-color: #deedf2;
+}
+
+.gameTitle {
+  display: flex;
+  justify-self: center;
+  justify-content: space-around;
+  width: auto;
+  height: auto;
+  border: double black 15px;
+  padding: 20px;
+  color: Orange;
+}
+
+.mainContainer {
+  display: flex;
+  justify-self: center;
+  justify-content: space-around;
+  margin: 3em;
+  width: 90%;
+  height: 10vh;
+  border: solid black 15px;
+  background-color: #333f3c;
+}
+
+.numberBox {
+  display: flex;
+  border: solid orange 3px;
+  width: 8%;
+  height: 3em;
+  margin: auto;
+  background-color: yellow;
+}
+
+.chosenNumber {
+  display: flex;
+  color: black;
+  margin: auto;
+  font-weight: bold;
+  background-color: yellow;
+  border: none;
+  font-size: 25px;
+}
+
+.resultBox {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  padding-top: 10px;
+  margin: 1em;
+  width: 90%;
+  height: 10vh;
+  padding-left: 22px;
+  border: solid black 15px;
+  background-color: #333f3c;
+  font-size: 30px;
+  color: yellow;
+  font-weight: bold;
+}
